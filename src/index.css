@@ -1,0 +1,27 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --blue: #0095da;
+  --blue-dark: #007db8;
+  --pink: #ff2478;
+  --text: #1a1a1a;
+  --text-muted: #888;
+  --border: #e8e8e8;
+  --bg-light: #f8f8f8;
+  --max-width: 1280px;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  color: var(--text);
+  background: #fff;
+  -webkit-font-smoothing: antialiased;
+}
+
+a { text-decoration: none; color: inherit; }
+button { cursor: pointer; border: none; background: none; font-family: inherit; }
+img { max-width: 100%; display: block; }
